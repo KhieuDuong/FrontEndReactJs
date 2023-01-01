@@ -30,7 +30,7 @@ class App extends Component {
                 Thử thách
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link to={"/tutorials"} className="nav-link">
                 Tutorials
               </Link>
@@ -39,7 +39,7 @@ class App extends Component {
               <Link to={"/add"} className="nav-link">
                 Add
               </Link>
-            </li>
+            </li> */}
           </div>
           <div className="header-right nav-item">
             <Link to="/login" className="nav-link">Login</Link>
