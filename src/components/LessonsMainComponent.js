@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { Routes, Route, Link } from "react-router-dom";
 import "./LessonsMainComponent.css";
 import LessonsMainService from "../services/LessonsMainService";
-import TutorialDataService from '../services/tutorial.service';
 const LessonsListComponent = () => {
   const [lessons, setLessons] = useState(null);
 

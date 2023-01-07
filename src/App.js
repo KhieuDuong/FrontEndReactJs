@@ -47,6 +47,32 @@ class App extends Component {
 
         </nav>
 
+        <div className="footer">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-4">
+              <div className="style">
+              </div>
+                <ul>
+                  <li><a href="#">T</a></li>
+                  <li><a href="#">G</a></li>
+
+                </ul>
+              </div>
+              <div className="col-md-4">
+                <h3>Dịch vụ</h3>
+                <ul>
+                  <li><a href="#">Dịch vụ</a></li>
+                  <li><a href="#">Liên hệ</a></li>
+                </ul>
+              </div>
+              <div className="col-md-4">
+                <h3>Liên hệ</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="container mt-3">
           <Routes>
             <Route path="/" element={<LessonsMainComponent/>} />
@@ -55,7 +81,7 @@ class App extends Component {
             <Route path="/tutorials/:id" element={<Tutorial/>} />
             <Route path="/lessons-main" element={<LessonsMainComponent/>} />
             <Route path="/lessons/:id" element={<LessonsListComponent/>} />
-            <Route path="/lesson/:id" element={<LessonDetailComponent/>} />
+            <Route path="/lessonDetail/:id" element={<LessonDetailComponent/>} />
             <Route path="/login" element={<AuthComponent/>} />
           </Routes>
         </div>

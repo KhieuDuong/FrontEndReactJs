@@ -26,7 +26,7 @@ const LessonsListComponent = () => {
       <h2>Danh sách bài học tiếng hàn sơ cấp {id}</h2>
       {lessons.map((lesson) => (
         <div key={lesson.id}>
-          <Link to={`/lesson/${lesson.level}`}>
+          <Link to={`/lessonDetail/${lesson.id}`}>
             <h5>{lesson.title}</h5>
           </Link>
           {/* <div>{lesson.description}</div> */}

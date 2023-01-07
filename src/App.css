@@ -13,3 +13,54 @@
   max-width: 300px;
   margin: auto;
 }
+
+
+
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  z-index: 1;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #999;
+}
+
+.footer .social-media {
+  display: flex;
+}
+
+.footer .social-media a {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.container {
+  /* các thuộc tính khác như màu nền, kích thước, font... */
+  padding-bottom: 50px; /* kích thước của footer */
+}
+
+.footer ul li {
+  display: inline-block;
+  width: 50%;
+}
+

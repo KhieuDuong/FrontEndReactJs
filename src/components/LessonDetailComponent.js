@@ -26,7 +26,17 @@ const LessonDetailComponent = () => {
     <div>
         <div key={lessons.id}>
         <h5>{lessons.title}</h5>
-        <div>{lessons.description}</div>
+
+        <div>
+          {lessons.description.split('\n').map((line, index) => (
+            <React.Fragment key={index}>
+              {line}
+              <br />
+            </React.Fragment>
+          ))}
+        </div>
+
+        {/* <div>{lessons.description}</div> */}
         </div>
 
     </div>
